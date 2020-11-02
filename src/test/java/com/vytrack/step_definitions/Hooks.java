@@ -6,7 +6,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
 import java.util.concurrent.TimeUnit;
-//Yav he he
+//Yav hehe
 /**
  * Hooks name is not reserved. You may name this class in any way.
  * For example: SuiteSetupAndTearDown
