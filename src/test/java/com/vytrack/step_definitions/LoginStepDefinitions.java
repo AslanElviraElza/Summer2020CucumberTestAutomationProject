@@ -48,6 +48,14 @@ public class LoginStepDefinitions {
         loginPage.login(string, string2);
     }
 
+    @Then("user should see {string} page")
+    public void userShouldSeePage(String arg0) {
+    }
+
+    @Then("user verifies that {string} message is displayed user verifies that {string} message is displayed")
+    public void userVerifiesThatMessageIsDisplayedUserVerifiesThatMessageIsDisplayed(String arg0, String arg1) {
+    }
+
     //    String expected = "Invalid user name or password."
 //    Then user verifies that "Invalid user name or password." message is displayed
 //    @Then("user verifies that {string} message is displayed")

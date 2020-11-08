@@ -3,6 +3,7 @@ package com.vytrack.step_definitions;
 import com.vytrack.pages.BasePage;
 import com.vytrack.pages.LoginPage;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class CommonStepDefinitions {
@@ -14,5 +15,9 @@ public class CommonStepDefinitions {
     @When("user clicks on save and close button")
     public void user_clicks_on_save_and_close_button() {
         basePage.clickSaveAndClose();
+    }
+
+    @Then("user verifies that {string} message is displayed")
+    public void userVerifiesThatMessageIsDisplayed(String arg0) {
     }
 }
